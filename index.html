@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
+	<title>Sreenivas Venkobarao</title>
 	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
@@ -13,34 +13,58 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->	
 	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
-		}
+	p { color:white;
+	    font-family: helvetica;
+	    font-size: 100%; 
+	    padding: 0% 50% 1% 10%;
+	    text-align: justify;
+	   }
+	h1{color:white;
+	    font-family: helvetica;
+	    font-size: 18px;	
+ 	    padding:5% 50% 1% 10%;
+
+	}
+
+a:link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
 	</style>
 </head>	
-    
 <body>
+<div id = "monogram">
+<img src="circle.png" align="right" width="10%" height="10%">
+<h1>   
+Hi. I'm Sreenivas.</h1> 
+ <p>I'm a final year Electronics and Communication Engineering student at <a href='http://www.ssn.edu.in/?page_id=124'>SSN College of Engineering.</a></p>
 
-<!-- swap out for a logo -->
-<div id="monogram">
-	<img src="monogram.png" />
+<p> I'm a Computer Vision and Machine Learning enthusiast. Recently, I built a Rubik's Cube Digitization System, which can be found <a href='http://www.github.com/sreenivasvrao/cube-solver'>here</a>, along with my other <a href='http://www.github.com/sreenivasvrao/'> projects.</a> Currently, I'm working on a research project involving human action recognition from videos. We are using Caffe to train a ConvNet for the task. 	
+</p>
+
+<p> 
+I've also been involved in building a Smart Walking Cane for the Visually Challenged, where I worked on the GPS and GSM modules for the device. You can find our research paper <a href='https://drive.google.com/file/d/0B_NpmGYG2i52NEppRE9yUW1TVEE/view'>here.</a> We used a system of ultrasonic sensors for detecting changes in the terrain. We provided audio feedback as well as tactile feedback (via vibration motors) to the user. The GPS and GSM modules were used to provide an SOS functionality.
+</p>
+
+<p>
+When I'm not working on Computer Vision problems, I'm listening to Pink Floyd, writing a script for <a href='http://www.facebook.com/lightsoutplease'> my college theater group's </a> next play, or attending quizzes with friends from <a href='http://www.facebook.com/qfactorial'> the quiz club of our college</a>.  I used to write short stories. Some of them are still up on <a href='http://sreenivas-v.quora.com'> Quora. </a>  
+</p>
+
+<p>
+You can find me on <a href='https://www.linkedin.com/in/sreenivasvrao'> linkedin,</a> or email me at sreenivas.vrao1 {at} gmail {dot} com.
+</p>
 </div>
+<!-- swap out for a logo -->
 
 <!-- swap out for information about yourself -->
-<div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
-</div>
 
 <!--include jquery & backstretch-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -49,7 +73,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
+             $.backstretch("ch.png", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
